@@ -1,23 +1,28 @@
-body{
-    /* background-color: #111; */
-    /* background-image: url(https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80); */
-}
+ 
+
+/* this is the Style for all Boxes */
 .box{
-    height: 250px;
-    width:250px;
-}
-.container{
-   border:2px outset #111;
-   /* background-color: thistle; */
-}
-#box1{
-    background-color: rgb(255, 181, 71);
+    width:200px;
+    height:200px;
+    background-color: rgb(119, 243, 82);
 }
 
-/* #box2{
-    background-color: rgb(71, 212, 255);
+ /* this is the style for Container */
+ .container{
+     border:2px solid black;
+     width:600px;
+     height:600px;
+     font-size: 50px;
+ }
 
-}
-#box3{
-    background-color: rgb(135, 71, 255); 
-} */
+
+
+ /* this is the snippet of Rem and Em */
+
+/*  
+ .rem{
+     font-size: 1rem;
+ }
+ .em{
+     font-size: 1em;
+ } */
